@@ -4,6 +4,8 @@ from datetime import timedelta
 
 # to get current local time
 localtime = time.localtime(time.time())
+print("Date and time:=")
+
 print("Local current time :", localtime)
 print("Day = " + str(localtime.tm_mday))
 print("Month = " + str(localtime.tm_mon))
